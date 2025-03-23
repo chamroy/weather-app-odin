@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="weather-form">
+      <div>
+        <label for="location"> Enter location: </label>
+        <input type="text" class="location" placeholder="Manipur" required />
+      </div>
+
+      <div>
+        <button type="submit" id="submit-button">Get Weather</button>
+      </div>
+    </form>
+    <div class="weather-results">
+      <h2>Weather Information</h2>
+      <p class="current-location">Location:</p>
+      <p class="current-condition">Condition:</p>
+      <p class="temperature">Temperature:</p>
+      <p class="humidity">Humidity:</p>
+      <p class="description">Description:</p>
+      <p class="errorMessage"></p>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>
